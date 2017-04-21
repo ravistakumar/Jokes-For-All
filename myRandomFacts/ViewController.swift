@@ -15,10 +15,7 @@ class ViewController: UIViewController {
     //var factSource: Facts
     override func viewDidLoad() {
         super.viewDidLoad()
-        func preferredStatusBarStyle() -> UIStatusBarStyle {
-            return UIStatusBarStyle.lightContent
-        }
-        view.backgroundColor = UIColor.darkGray
+//        view.backgroundColor = UIColor.darkGray
     }
 
     override func didReceiveMemoryWarning() {
