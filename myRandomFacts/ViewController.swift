@@ -9,9 +9,7 @@
 import UIKit
 class ViewController: UIViewController {
     
-    @IBOutlet weak var titleText: UILabel!
     @IBOutlet weak var outputWindow: UITextView!
-    @IBOutlet weak var buttonText: UIButton!
     //var factSource: Facts
     override func viewDidLoad() {
         super.viewDidLoad()

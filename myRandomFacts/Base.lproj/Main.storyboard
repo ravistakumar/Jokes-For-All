@@ -60,9 +60,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="buttonText" destination="iZ1-5m-pG4" id="U7g-K8-K9f"/>
                         <outlet property="outputWindow" destination="6oy-Tz-Ryu" id="bNb-zo-pp7"/>
-                        <outlet property="titleText" destination="nF6-Gl-pE5" id="Rqa-Nx-NV5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
