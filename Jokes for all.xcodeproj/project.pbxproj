@@ -48,7 +48,7 @@
 		2ACEE5761EA9A2BB00FD0BA2 = {
 			isa = PBXGroup;
 			children = (
-				2ACEE5811EA9A2BC00FD0BA2 /* myRandomFacts */,
+				2ACEE5811EA9A2BC00FD0BA2 /* jokesForAll */,
 				2ACEE5801EA9A2BC00FD0BA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2ACEE5811EA9A2BC00FD0BA2 /* myRandomFacts */ = {
+		2ACEE5811EA9A2BC00FD0BA2 /* jokesForAll */ = {
 			isa = PBXGroup;
 			children = (
 				2ACEE5821EA9A2BC00FD0BA2 /* AppDelegate.swift */,
@@ -76,6 +76,7 @@
 				2ACEE58E1EA9A2BC00FD0BA2 /* Info.plist */,
 				2A5546B01EC7FD090047CB6E /* iconJokes */,
 			);
+			name = jokesForAll;
 			path = myRandomFacts;
 			sourceTree = "<group>";
 		};
@@ -280,7 +281,6 @@
 		2ACEE5921EA9A2BC00FD0BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = US4HPFB53D;
 				INFOPLIST_FILE = myRandomFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -294,7 +294,6 @@
 		2ACEE5931EA9A2BC00FD0BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = US4HPFB53D;
 				INFOPLIST_FILE = myRandomFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
