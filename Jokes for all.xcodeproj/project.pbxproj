@@ -7,24 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5546AD1EC7F2BF0047CB6E /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5546AC1EC7F2BF0047CB6E /* Sound.swift */; };
+		2A5546AF1EC7F3030047CB6E /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A5546AE1EC7F3030047CB6E /* click.mp3 */; };
+		2A5546B11EC7FD090047CB6E /* iconJokes in Resources */ = {isa = PBXBuildFile; fileRef = 2A5546B01EC7FD090047CB6E /* iconJokes */; };
 		2ACEE5831EA9A2BC00FD0BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEE5821EA9A2BC00FD0BA2 /* AppDelegate.swift */; };
 		2ACEE5851EA9A2BC00FD0BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEE5841EA9A2BC00FD0BA2 /* ViewController.swift */; };
 		2ACEE5881EA9A2BC00FD0BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACEE5861EA9A2BC00FD0BA2 /* Main.storyboard */; };
 		2ACEE58A1EA9A2BC00FD0BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACEE5891EA9A2BC00FD0BA2 /* Assets.xcassets */; };
 		2ACEE58D1EA9A2BC00FD0BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACEE58B1EA9A2BC00FD0BA2 /* LaunchScreen.storyboard */; };
-		2ACEE5951EA9A87100FD0BA2 /* randomFactsBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEE5941EA9A87100FD0BA2 /* randomFactsBank.swift */; };
+		2ACEE5951EA9A87100FD0BA2 /* jokesBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEE5941EA9A87100FD0BA2 /* jokesBank.swift */; };
 		2ACEE5971EA9AF3A00FD0BA2 /* colorsSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEE5961EA9AF3A00FD0BA2 /* colorsSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2ACEE57F1EA9A2BC00FD0BA2 /* myRandomFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myRandomFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5546AC1EC7F2BF0047CB6E /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sound.swift; path = ../Sound.swift; sourceTree = "<group>"; };
+		2A5546AE1EC7F3030047CB6E /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		2A5546B01EC7FD090047CB6E /* iconJokes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iconJokes; sourceTree = "<group>"; };
+		2ACEE57F1EA9A2BC00FD0BA2 /* Jokes for all.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jokes for all.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACEE5821EA9A2BC00FD0BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ACEE5841EA9A2BC00FD0BA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2ACEE5871EA9A2BC00FD0BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2ACEE5891EA9A2BC00FD0BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ACEE58C1EA9A2BC00FD0BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ACEE58E1EA9A2BC00FD0BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2ACEE5941EA9A87100FD0BA2 /* randomFactsBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomFactsBank.swift; sourceTree = "<group>"; };
+		2ACEE5941EA9A87100FD0BA2 /* jokesBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jokesBank.swift; sourceTree = "<group>"; };
 		2ACEE5961EA9AF3A00FD0BA2 /* colorsSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorsSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +56,7 @@
 		2ACEE5801EA9A2BC00FD0BA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2ACEE57F1EA9A2BC00FD0BA2 /* myRandomFacts.app */,
+				2ACEE57F1EA9A2BC00FD0BA2 /* Jokes for all.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,12 +66,15 @@
 			children = (
 				2ACEE5821EA9A2BC00FD0BA2 /* AppDelegate.swift */,
 				2ACEE5841EA9A2BC00FD0BA2 /* ViewController.swift */,
+				2A5546AC1EC7F2BF0047CB6E /* Sound.swift */,
 				2ACEE5961EA9AF3A00FD0BA2 /* colorsSource.swift */,
 				2ACEE5861EA9A2BC00FD0BA2 /* Main.storyboard */,
-				2ACEE5941EA9A87100FD0BA2 /* randomFactsBank.swift */,
+				2ACEE5941EA9A87100FD0BA2 /* jokesBank.swift */,
+				2A5546AE1EC7F3030047CB6E /* click.mp3 */,
 				2ACEE5891EA9A2BC00FD0BA2 /* Assets.xcassets */,
 				2ACEE58B1EA9A2BC00FD0BA2 /* LaunchScreen.storyboard */,
 				2ACEE58E1EA9A2BC00FD0BA2 /* Info.plist */,
+				2A5546B01EC7FD090047CB6E /* iconJokes */,
 			);
 			path = myRandomFacts;
 			sourceTree = "<group>";
@@ -73,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2ACEE57E1EA9A2BC00FD0BA2 /* myRandomFacts */ = {
+		2ACEE57E1EA9A2BC00FD0BA2 /* Jokes for all */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2ACEE5911EA9A2BC00FD0BA2 /* Build configuration list for PBXNativeTarget "myRandomFacts" */;
+			buildConfigurationList = 2ACEE5911EA9A2BC00FD0BA2 /* Build configuration list for PBXNativeTarget "Jokes for all" */;
 			buildPhases = (
 				2ACEE57B1EA9A2BC00FD0BA2 /* Sources */,
 				2ACEE57C1EA9A2BC00FD0BA2 /* Frameworks */,
@@ -85,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = myRandomFacts;
+			name = "Jokes for all";
 			productName = myRandomFacts;
-			productReference = 2ACEE57F1EA9A2BC00FD0BA2 /* myRandomFacts.app */;
+			productReference = 2ACEE57F1EA9A2BC00FD0BA2 /* Jokes for all.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2ACEE57A1EA9A2BB00FD0BA2 /* Build configuration list for PBXProject "myRandomFacts" */;
+			buildConfigurationList = 2ACEE57A1EA9A2BB00FD0BA2 /* Build configuration list for PBXProject "Jokes for all" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2ACEE57E1EA9A2BC00FD0BA2 /* myRandomFacts */,
+				2ACEE57E1EA9A2BC00FD0BA2 /* Jokes for all */,
 			);
 		};
 /* End PBXProject section */
@@ -130,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5546B11EC7FD090047CB6E /* iconJokes in Resources */,
 				2ACEE58D1EA9A2BC00FD0BA2 /* LaunchScreen.storyboard in Resources */,
+				2A5546AF1EC7F3030047CB6E /* click.mp3 in Resources */,
 				2ACEE58A1EA9A2BC00FD0BA2 /* Assets.xcassets in Resources */,
 				2ACEE5881EA9A2BC00FD0BA2 /* Main.storyboard in Resources */,
 			);
@@ -143,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5546AD1EC7F2BF0047CB6E /* Sound.swift in Sources */,
 				2ACEE5971EA9AF3A00FD0BA2 /* colorsSource.swift in Sources */,
-				2ACEE5951EA9A87100FD0BA2 /* randomFactsBank.swift in Sources */,
+				2ACEE5951EA9A87100FD0BA2 /* jokesBank.swift in Sources */,
 				2ACEE5851EA9A2BC00FD0BA2 /* ViewController.swift in Sources */,
 				2ACEE5831EA9A2BC00FD0BA2 /* AppDelegate.swift in Sources */,
 			);
@@ -272,7 +284,7 @@
 				DEVELOPMENT_TEAM = US4HPFB53D;
 				INFOPLIST_FILE = myRandomFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.connected.myRandomFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connected.myJokesForAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -286,7 +298,7 @@
 				DEVELOPMENT_TEAM = US4HPFB53D;
 				INFOPLIST_FILE = myRandomFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.connected.myRandomFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connected.myJokesForAll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -296,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2ACEE57A1EA9A2BB00FD0BA2 /* Build configuration list for PBXProject "myRandomFacts" */ = {
+		2ACEE57A1EA9A2BB00FD0BA2 /* Build configuration list for PBXProject "Jokes for all" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2ACEE58F1EA9A2BC00FD0BA2 /* Debug */,
@@ -305,13 +317,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2ACEE5911EA9A2BC00FD0BA2 /* Build configuration list for PBXNativeTarget "myRandomFacts" */ = {
+		2ACEE5911EA9A2BC00FD0BA2 /* Build configuration list for PBXNativeTarget "Jokes for all" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2ACEE5921EA9A2BC00FD0BA2 /* Debug */,
 				2ACEE5931EA9A2BC00FD0BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

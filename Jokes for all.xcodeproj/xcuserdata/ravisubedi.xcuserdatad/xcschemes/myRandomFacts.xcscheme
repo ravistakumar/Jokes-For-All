@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2ACEE57E1EA9A2BC00FD0BA2"
-               BuildableName = "myRandomFacts.app"
-               BlueprintName = "myRandomFacts"
-               ReferencedContainer = "container:myRandomFacts.xcodeproj">
+               BuildableName = "Jokes for all.app"
+               BlueprintName = "Jokes for all"
+               ReferencedContainer = "container:Jokes for all.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2ACEE57E1EA9A2BC00FD0BA2"
-            BuildableName = "myRandomFacts.app"
-            BlueprintName = "myRandomFacts"
-            ReferencedContainer = "container:myRandomFacts.xcodeproj">
+            BuildableName = "Jokes for all.app"
+            BlueprintName = "Jokes for all"
+            ReferencedContainer = "container:Jokes for all.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2ACEE57E1EA9A2BC00FD0BA2"
-            BuildableName = "myRandomFacts.app"
-            BlueprintName = "myRandomFacts"
-            ReferencedContainer = "container:myRandomFacts.xcodeproj">
+            BuildableName = "Jokes for all.app"
+            BlueprintName = "Jokes for all"
+            ReferencedContainer = "container:Jokes for all.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2ACEE57E1EA9A2BC00FD0BA2"
-            BuildableName = "myRandomFacts.app"
-            BlueprintName = "myRandomFacts"
-            ReferencedContainer = "container:myRandomFacts.xcodeproj">
+            BuildableName = "Jokes for all.app"
+            BlueprintName = "Jokes for all"
+            ReferencedContainer = "container:Jokes for all.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

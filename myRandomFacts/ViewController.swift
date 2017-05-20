@@ -8,7 +8,6 @@
 
 import UIKit
 class ViewController: UIViewController {
-    
     @IBOutlet weak var outputWindow: UITextView!
     //var factSource: Facts
     override func viewDidLoad() {
@@ -20,9 +19,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    let jokeSource = Jokes()
     @IBAction func actionButton(_ sender: Any) {
-    outputWindow.text = factSource.getMeTheFacts()
+    outputWindow.text = jokeSource.getJokes()
     view.backgroundColor = colorSource.giveMeSomeColors()
+    playSound()
     }
 
 
