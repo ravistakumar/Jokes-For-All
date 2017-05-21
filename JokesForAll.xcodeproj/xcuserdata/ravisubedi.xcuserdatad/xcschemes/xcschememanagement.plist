@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>myRandomFacts.xcscheme</key>
+		<key>JokesForAll.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2ACEE57E1EA9A2BC00FD0BA2</key>
+		<key>2A5F1E341ED109450087F96F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

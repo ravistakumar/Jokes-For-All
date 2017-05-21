@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2ACEE57E1EA9A2BC00FD0BA2"
-               BuildableName = "Jokes for all.app"
-               BlueprintName = "Jokes for all"
-               ReferencedContainer = "container:Jokes for all.xcodeproj">
+               BlueprintIdentifier = "2A5F1E341ED109450087F96F"
+               BuildableName = "JokesForAll.app"
+               BlueprintName = "JokesForAll"
+               ReferencedContainer = "container:JokesForAll.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2ACEE57E1EA9A2BC00FD0BA2"
-            BuildableName = "Jokes for all.app"
-            BlueprintName = "Jokes for all"
-            ReferencedContainer = "container:Jokes for all.xcodeproj">
+            BlueprintIdentifier = "2A5F1E341ED109450087F96F"
+            BuildableName = "JokesForAll.app"
+            BlueprintName = "JokesForAll"
+            ReferencedContainer = "container:JokesForAll.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2ACEE57E1EA9A2BC00FD0BA2"
-            BuildableName = "Jokes for all.app"
-            BlueprintName = "Jokes for all"
-            ReferencedContainer = "container:Jokes for all.xcodeproj">
+            BlueprintIdentifier = "2A5F1E341ED109450087F96F"
+            BuildableName = "JokesForAll.app"
+            BlueprintName = "JokesForAll"
+            ReferencedContainer = "container:JokesForAll.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2ACEE57E1EA9A2BC00FD0BA2"
-            BuildableName = "Jokes for all.app"
-            BlueprintName = "Jokes for all"
-            ReferencedContainer = "container:Jokes for all.xcodeproj">
+            BlueprintIdentifier = "2A5F1E341ED109450087F96F"
+            BuildableName = "JokesForAll.app"
+            BlueprintName = "JokesForAll"
+            ReferencedContainer = "container:JokesForAll.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

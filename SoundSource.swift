@@ -1,8 +1,8 @@
 //
-//  Sound.swift
-//  myRandomFacts
+//  SoundSource.swift
+//  JokesForAll
 //
-//  Created by Ravi Subedi on 5/13/17.
+//  Created by Ravi Subedi on 5/20/17.
 //  Copyright © 2017 Ravi Subedi. All rights reserved.
 //
 
@@ -31,4 +31,3 @@ func playSound() {
     audioPlayer.prepareToPlay()
     audioPlayer.play()
 }
-
